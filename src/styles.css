@@ -1,0 +1,52 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url(assets/img/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+}
+
+#body-section {
+  width: 100%;
+  padding: 20px 0px;
+}
+
+#body-section h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0px;
+}
+
+#body-section h2 {
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0px;
+}
+
+#body-section p {
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  padding: 0px 50px;
+}
+
+#body-section table > thead > tr > th {
+  font-weight: 400;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #000;
+}
+
+#body-section .box {
+  width: 100%;
+  margin: 10px 0px;
+  background-color: #fff;
+  min-height: 100px;
+}/*# sourceMappingURL=styles.css.map */

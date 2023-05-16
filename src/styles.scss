@@ -1,0 +1,324 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+$black :#000;
+$white : #fff;
+$h1 : 36px;
+$h2 : 18px;
+$h20 : 20px;
+$h24 : 24px;
+$p :16px;
+$font: 'Roboto', sans-serif;
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(assets/img/bg1.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: $font;       
+}
+
+#body-section
+{
+    width: 100%;
+    padding: 20px 0px;
+}
+
+#body-section h1
+{
+    font-family: $font;
+    font-size: $h24;
+    color: $white;
+    text-align: center;
+    padding: 15px 0px;
+}
+#body-section h2
+{
+    font-size: $h2;
+    color: $white;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+@media (min-width:992px){
+    #body-section h1
+{
+    font-family: $font;
+    font-size: $h1;
+    color: $white;
+    text-align: center;
+    padding: 15px 0px;
+}
+#body-section h2
+{
+    font-size: $h2;
+    color: $white;
+    text-align: center;
+    padding: 30px 0px;
+}
+}
+
+
+#body-section p
+{
+    font-size: $p;
+    color: $white;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+@media (min-width:992px){
+    #body-section p
+{
+    font-size: $p;
+    color: $white;
+    text-align: center;
+    padding: 0px 50px;
+}
+}
+
+
+#body-section table > thead > tr > th
+{
+    font-weight: 400;
+    padding: 15px;
+    margin-bottom:10px ;
+    background-color: $black;
+}
+
+#body-section .box
+{
+    width: 100%;
+    margin: 8px 0px;
+    padding: 15px 15px;
+    background-color: $white;
+    min-height: 90px;
+    text-align: center;   
+}
+
+#body-section .box h2
+{
+    font-size: 28px;
+    font-weight: 900;
+    color:#000;
+    line-height: 36px;
+    padding: 5px 0px;
+    text-align: center;
+    margin: 0px;
+    
+}
+
+#body-section .box h3
+{
+    font-size: 14px;
+    font-weight: 400;
+    color:#000;
+    line-height:24px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;   
+}
+
+
+#body-section .box h4
+{
+    font-size: 40px;
+    font-weight: 600;
+    color:#ff7300;   
+    padding:12px 0px;
+    margin: 0px;
+    text-align: center;    
+}
+
+#body-section .box h4 span{
+    color: #757373;
+    font-size: 26px;
+}
+
+#body-section .box p
+{
+    font-size: 12px;
+    font-weight: 400;
+    color:#000;
+    line-height:18px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;    
+}
+
+#body-section .btn
+{
+    min-width: 100px;
+    text-align: center;
+    padding: 10px 10px;
+    background-color: #ce1717;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#body-section .btn:hover
+{
+    background-color: #940606;
+    animation: ease-in-out 2s;
+}
+
+@media (min-width:992px)
+{
+    #body-section .btn
+{
+    min-width: 140px;
+    text-align: center;
+    padding: 15px 20px;
+    background-color: #ce1717;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 20px;
+}
+}
+
+
+#body-section ul
+{
+    margin:20px 0px;
+    padding: 0px;
+    width: 100%;    
+}
+
+#body-section ul li
+{
+    margin: 0px;
+    padding: 10px 15px;
+    color: $white;
+    list-style-type: none;
+    float: left;
+}
+
+@media (min-width:992px)
+{
+    #body-section ul li
+{
+    margin: 0px;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: $white;
+    list-style-type: none;
+    float: left;
+}
+
+}
+
+
+#body-section .bullet ul
+{
+    margin:0px;
+    padding: 0px;
+    width: 99%;    
+}
+#body-section .bullet ul li
+{
+    background: url(assets/img/yes.png) 0px 2px no-repeat;
+    margin-top: 0px;
+    padding: 1px 5px;
+    padding-left: 30px;
+    color: $black;
+    list-style-type: none;
+    float: left;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+//privacy policy
+
+#privacy 
+{
+    width: 100%;
+    background-color: $white;
+    min-height: 500px;
+    padding: 50px 0px;
+}
+
+#privacy h2{
+    font-size: 24px;
+    color: $black;
+}
+#privacy p{
+    font-size: 16px;
+    color: $black;
+    line-height: 24px;
+    margin: 15px 0px;
+    font-weight: 400;
+}
+
+#footer .footer ul
+{
+    margin:15px 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    width: 100%;
+    display: inline-block;
+    }
+
+#footer  .footer ul li
+{
+    
+    margin: 0px;
+    padding: 10px 5px;
+     color: $black;
+    list-style-type: none;
+    float: left;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media (min-width:992px){
+    #footer  .footer ul li
+{
+    
+    margin: 0px;
+    padding: 20px 15px;
+     color: $black;
+    list-style-type: none;
+    float: left;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+}
+}
+
+
+#footer  .footer ul li a{
+    text-decoration: none;
+}
+
+#terms
+{
+    width: 100%;
+    padding: 50px 0px;
+    min-height: 400px;
+    background-color: #fff;
+}
+
+#footer
+{
+    width: 100%;
+    background-color: $white;
+    min-height: 200px;
+    padding: 30px 0px;
+}
+
+#gameon
+{
+    width: 100%;
+    min-height: 400px;
+    text-align: center;
+    font-size: 50px;
+    background-color: $white;
+    padding: 100px 0px;
+}
